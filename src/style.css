@@ -1,6 +1,7 @@
 nav{
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
 
 ul{
@@ -33,9 +34,81 @@ ul{
   height: 40px;
 }
 
+body{
+  background-color: rgb(225, 236, 233);
+}
+
 section{
   display: flex;
   justify-content: space-between;
+}
+
+.container{
+  width: 300px;
+  height: 300px;
+}
+
+.Laptop{
+  object-fit: cover;
+  width: full;
+  height: full;
+}
+
+.Textos{
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  margin: 100px 50px;
+}
+
+.Juntar{
+  margin: 0;
+}
+
+section div h2{
+  font-size: 1rem;
+  color: rgb(122, 58, 122);
+}
+
+section div h1{
+  font-size: 3rem;
+  color: rgb(28, 28, 228);
+  font-weight: 1000;
+}
+
+section div p{
+  text-align: justify;
+  color: gray;
+}
+
+.Botones{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.Boton1{
+  border: 1px solid rgb(122, 58, 122);
+  padding: 10px;
+  color:rgb(122, 58, 122);
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.Boton2{
+  border: 1px solid rgb(122, 58, 122);
+  padding: 10px;
+  background-color: rgb(122, 58, 122);
+  color: wheat;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+
+}
+
+footer{
+  margin-top:200px;
 }
 
 .Facebook{
@@ -51,4 +124,10 @@ section{
 .Instagram{
   width: 40px;
   height: 40px;
+}
+
+select div p{
+  margin: 0 auto;
+  overflow: hidden;
+white-space: nowrap;
 }
